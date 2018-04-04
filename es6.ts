@@ -9,6 +9,7 @@ console.log(variable);
 const adharnumber = 12345678912;
 
 
+
 // blocked scopes
 
 function person(){
