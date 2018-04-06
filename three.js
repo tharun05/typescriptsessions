@@ -1,3 +1,4 @@
+"use strict";
 var calcMath;
 (function (calcMath) {
     function clacRect(width, height) {
@@ -5,3 +6,4 @@ var calcMath;
     }
     calcMath.clacRect = clacRect;
 })(calcMath || (calcMath = {}));
+//# sourceMappingURL=three.js.map

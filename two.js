@@ -1,3 +1,4 @@
+"use strict";
 var calcMath;
 (function (calcMath) {
     calcMath.PI = 2.14;
@@ -6,3 +7,4 @@ var calcMath;
     }
     calcMath.calcRadius = calcRadius;
 })(calcMath || (calcMath = {}));
+//# sourceMappingURL=two.js.map
