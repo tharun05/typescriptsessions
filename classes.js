@@ -11,6 +11,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var Person = /** @class */ (function () {
     function Person(name, username) {
+        this.type = "digitallync";
+        this.age = 23;
         this.name = name;
         this.username = username;
     }

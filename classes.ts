@@ -1,9 +1,9 @@
 class Person{
     name:string;
-    private type:string;
+    private type:string = "digitallync";
     username:string;
     static company:string = "HCL";
-    protected age:number
+    protected age:number = 23;
     constructor(name:string,username:string){
         this.name = name;
         this.username = username;
