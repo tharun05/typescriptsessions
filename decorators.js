@@ -26,7 +26,7 @@ var Employeeone = /** @class */ (function () {
     function Employeeone() {
     }
     Employeeone = __decorate([
-        logging(false)
+        logging(true)
     ], Employeeone);
     return Employeeone;
 }());

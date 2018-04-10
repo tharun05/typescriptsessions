@@ -15,8 +15,7 @@ function logging(value:boolean){
     return value ? logged :null;
 }
 
-
-@logging(false)
+@logging(true)
 class Employeeone{
 
 }
