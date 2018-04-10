@@ -29,12 +29,12 @@ var Genericlass = /** @class */ (function () {
     function Genericlass() {
     }
     Genericlass.prototype.calc = function () {
-        return this.baseValue + this.multiplyValue;
+        return +this.baseValue + +this.multiplyValue;
     };
     return Genericlass;
 }());
 var simpleclassgeneric = new Genericlass();
-simpleclassgeneric.baseValue = 20;
-simpleclassgeneric.multiplyValue = 20;
+simpleclassgeneric.baseValue = '20';
+simpleclassgeneric.multiplyValue = '20';
 console.log(simpleclassgeneric.calc());
 //# sourceMappingURL=generics.js.map

@@ -37,10 +37,10 @@ class Genericlass<T extends number | string, U extends number | string>{
     baseValue: T;
     multiplyValue:U;
     calc(){
-        return this.baseValue + this.multiplyValue;
+        return +this.baseValue + +this.multiplyValue;
     }
 }
 let simpleclassgeneric = new Genericlass();
-simpleclassgeneric.baseValue = 20;
-simpleclassgeneric.multiplyValue = 20;
+simpleclassgeneric.baseValue = '20';
+simpleclassgeneric.multiplyValue = '20';
 console.log(simpleclassgeneric.calc());
